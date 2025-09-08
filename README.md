@@ -1,6 +1,17 @@
-# IDCPrep360 — Vite + React + Tailwind
+# IDCPrep360 — GitHub + Vercel Ready
 
-Deploy steps:
-1. npm install
-2. npm run dev
-3. Deploy to Vercel or Netlify
+## Local dev
+```bash
+npm install
+npm run dev
+```
+Open the URL printed in the terminal.
+
+## Deploy on Vercel
+Framework: Vite
+Install: npm install
+Build: npm run build
+Output: dist
+Node: >=18
+
+Edit content in `src/App.jsx` (content object at the top).
